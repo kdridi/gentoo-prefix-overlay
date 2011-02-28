@@ -16,7 +16,7 @@ DEPEND="${RDEPEND}
 	>=sys-libs/db-2.0
 	dev-libs/libjsonspirit
 	dev-libs/libcryptopp
-	x11-libs/wxGTK"
+	>=x11-libs/wxGTK-2.9.1.1"
 
 src_prepare() {
 	cd "${S}"
